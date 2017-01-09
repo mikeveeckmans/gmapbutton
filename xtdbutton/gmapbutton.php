@@ -16,7 +16,7 @@ class plgButtonGmapbutton extends JPlugin {
         $js =  "function sampleXTDButtonClick(editor) {
 			txt = prompt('Please enter address','straat nr gemeente');
 			if (!txt) return;
-			jInsertEditorText('{mosmap address='+txt+'}', editor);
+			jInsertEditorText('{mosmap address=''+txt+''}', editor);
 		}";
 				
         $doc = & JFactory::getDocument();
