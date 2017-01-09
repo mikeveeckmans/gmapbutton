@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.4" type="plugin" method="upgrade" group="editors-xtd">
-        <name>Editor - XTDButton</name>
-        <author>Author Name</author>
-        <creationDate>Month 2015</creationDate>
-        <copyright>(c) Author Name, 2015. All rights reserved.</copyright>
+<extension version="3.6" type="plugin" method="upgrade" group="editors-xtd">
+        <name>Editor - gmapButton</name>
+        <author>JoomBiz</author>
+        <creationDate>January 2017</creationDate>
+        <copyright>(c) Mike Veeckmans, 2017. All rights reserved.</copyright>
         <license>GPL</license>
-        <authorEmail>Email</authorEmail>
-        <authorUrl>Your URL</authorUrl>
+        <authorEmail>mike@joombiz.eu</authorEmail>
+        <authorUrl>https://www.joombiz.eu</authorUrl>
         <version>1.0.0</version>
         <description>
             "This plugin adds sample button to the editor. Do not forget to publish the plugin!"
         </description>
         <files>
-            <filename plugin="xtdbutton">xtdbutton.php</filename>
+            <filename plugin="gmapbutton">gmapbutton.php</filename>
         </files>
 </extension>
