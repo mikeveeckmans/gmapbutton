@@ -7,7 +7,7 @@
         <license>GPL</license>
         <authorEmail>mike@joombiz.eu</authorEmail>
         <authorUrl>https://www.joombiz.eu</authorUrl>
-        <version>1.0.0</version>
+        <version>1.4.0</version>
         <description>
             "This plugin adds a button to the editor to use the reumer googlemaps plugin. Do not forget to publish the plugin!"
         </description>
