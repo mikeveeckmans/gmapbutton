@@ -5,9 +5,9 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 jimport( 'joomla.plugin.plugin' );
 
-class plgButtonXtdbutton extends JPlugin {
+class plgButtonGmapbutton extends JPlugin {
 
-    function plgButtonXtdbutton(& $subject, $config)
+    function plgButtonGmapbutton(& $subject, $config)
     {
         parent::__construct($subject, $config);
     }
@@ -16,7 +16,7 @@ class plgButtonXtdbutton extends JPlugin {
         $js =  "function sampleXTDButtonClick(editor) {
 			txt = prompt('Please enter ID','123');
 			if (!txt) return;
-			jInsertEditorText('{sampleplugin '+txt+'}', editor);
+			jInsertEditorText('{mosmap '+txt+'}', editor);
 		}";
 				
         $doc = & JFactory::getDocument();
@@ -26,7 +26,7 @@ class plgButtonXtdbutton extends JPlugin {
 	$button->modal = false;
 	$button->class = 'btn';
 	$button->link = '#';
-	$button->text = JText::_('Insert sampleplugin');
+	$button->text = JText::_('Insert Gmap');
 	$button->name = 'wand';
 	$button->onclick = 'sampleXTDButtonClick(\''.$name.'\'); return false;';
 		
