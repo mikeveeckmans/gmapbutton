@@ -13,8 +13,8 @@ class plgButtonGmapbutton extends JPlugin {
     }
     function onDisplay($name)
     {
-        $js =  "function sampleXTDButtonClick(editor) {
-			txt = prompt('Please enter address','straat nr gemeente');
+        $js =  "function XTDButtonClick(editor) {
+			txt = prompt('Please enter address','street nr, town');
 			if (!txt) return;
 			jInsertEditorText('{mosmap address=\''+txt+'\'}', editor);
 		}";
@@ -28,7 +28,7 @@ class plgButtonGmapbutton extends JPlugin {
 	$button->link = '#';
 	$button->text = JText::_('Insert Gmap');
 	$button->name = 'wand';
-	$button->onclick = 'sampleXTDButtonClick(\''.$name.'\'); return false;';
+	$button->onclick = 'XTDButtonClick(\''.$name.'\'); return false;';
 		
         return $button;
     }
