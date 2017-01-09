@@ -9,7 +9,7 @@
         <authorUrl>https://www.joombiz.eu</authorUrl>
         <version>1.0.0</version>
         <description>
-            "This plugin adds sample button to the editor. Do not forget to publish the plugin!"
+            "This plugin adds a button to the editor to use the reumer googlemaps plugin. Do not forget to publish the plugin!"
         </description>
         <files>
             <filename plugin="gmapbutton">gmapbutton.php</filename>
