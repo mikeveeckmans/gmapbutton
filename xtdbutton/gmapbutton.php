@@ -27,7 +27,7 @@ class plgButtonGmapbutton extends JPlugin {
 	$button->class = 'btn';
 	$button->link = '#';
 	$button->text = JText::_('Insert Gmap');
-	$button->name = 'wand';
+	$button->name = 'flag';
 	$button->onclick = 'XTDButtonClick(\''.$name.'\'); return false;';
 		
         return $button;
